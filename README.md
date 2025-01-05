@@ -38,7 +38,7 @@ To compile the server and client:
 
 ```sh
 # Compile the server
-limbo -g chatserverV2.b
+limbo -g chatserver.b
 
 # Compile the client
 limbo -g chatclient.b
@@ -51,7 +51,7 @@ limbo -g chatclient.b
 1. Run the server with the following command:
 
    ```sh
-   emu chatserverV2.dis
+   emu chatserver.dis
    ```
 
 2. The server will start listening for connections on port `4242`.
